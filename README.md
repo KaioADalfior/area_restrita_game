@@ -1,82 +1,58 @@
-# 🕵️ Área Restrita — Entre o Silêncio e a Verdade
+<!DOCTYPE html>
+<html lang="pt-BR">
+<body>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Alpha%20Build-orange?style=for-the-badge&logo=probot" alt="Status Alpha">
-  <img src="https://img.shields.io/badge/Tech-React%20Native-blue?style=for-the-badge&logo=react" alt="React Native">
-  <img src="https://img.shields.io/badge/Genre-Psychological%20Horror-red?style=for-the-badge" alt="Terror Psicológico">
-</p>
+  <div align="center">
+    <br />
+    <h1><font face="Poppins, sans-serif" color="#cc0000">🕵️ ÁREA RESTRITA</font></h1>
+    <p><strong>Simulador Narrativo de Investigação e Terror Psicológico</strong></p>
+    <hr width="50%" />
+  </div>
 
-<p align="center">
-  <font face="Poppins, sans-serif">
-    <strong>Um simulador narrativo onde a verdade se esconde entre mensagens apagadas, silêncios suspeitos e escolhas irreversíveis.</strong>
-  </font>
-</p>
+  <section>
+    <h2><font face="Poppins, sans-serif">🌑 O Jogo</font></h2>
+    <p>
+      O <strong>Área Restrita</strong> transforma seu dispositivo móvel na interface de um celular encontrado. 
+      Seu irmão desapareceu, e a única trilha deixada são as notificações que não param de chegar. 
+      Neste simulador imersivo, você precisará navegar por uma rede de mentiras, seitas ocultas e corrupção.
+    </p>
+  </section>
 
----
+  <section>
+    <h2><font face="Poppins, sans-serif">🧩 O Caso: Três Versões, Nenhuma Verdade</font></h2>
+    <p>A investigação se ramifica através de contatos que parecem saber mais do que revelam:</p>
+    
+    <ul>
+      <li><strong>👮‍♂️ O Policial:</strong> Amigo de longa data da família. Foi ele quem trouxe a notícia do desaparecimento, mas o peso da corrupção na delegacia parece estar calando sua voz.</li>
+      <br />
+      <li><strong>🏥 A Enfermeira:</strong> Ela estava lá quando seu irmão deu entrada no hospital. Ela viu o rosto dele, mas em questão de minutos, ele desapareceu de um quarto trancado sem deixar rastros.</li>
+      <br />
+      <li><strong>💔 A Namorada:</strong> Em choque, ela inunda o celular com perguntas. Ela não entende o silêncio dele, mas suas mensagens guardam pistas sobre amizades ligadas a rituais e seitas perigosas.</li>
+    </ul>
+  </section>
 
-## 📱 O Projeto: Mais que um jogo, uma intrusão.
+  <section>
+    <blockquote>
+      <em>"A verdade não está no que foi dito, mas no que tentaram apagar."</em>
+    </blockquote>
+    <p>
+      Prepare-se para lidar com policiais comprados, segredos de família e a descoberta de que seu irmão estava envolvido em algo muito maior — e mais sombrio — do que você jamais imaginou.
+    </p>
+  </section>
 
-O **Área Restrita** não é apenas um app; é a janela para a vida de alguém que não está mais aqui. Desenvolvido com **React Native + Expo**, ele transforma o seu smartphone na ferramenta de um detetive improvisado. 
+  <hr />
 
-Imagine que você acaba de herdar o celular do seu irmão desaparecido. Cada notificação que chega é um frio na espinha. Cada contato salvo é um suspeito. Aqui, a interface **diegética** faz você esquecer que está em um jogo e o coloca diretamente dentro do mistério.
+  <footer align="center">
+    <p>
+      Desenvolvido com 🧠 e 🕯️ por <strong>Kaio A. Dalfior</strong>
+    </p>
+    <p>
+      <small>© 2026 Kaio A. Dalfior. Todos os direitos reservados.</small>
+    </p>
+    <p>
+      <em>O uso não autorizado de qualquer parte deste código ou narrativa é estritamente proibido.</em>
+    </p>
+  </footer>
 
-> *"Nada é confiável. Nem as pessoas. Nem o que foi apagado."*
-
----
-
-## 📂 O Caso: 48 Horas de Incerteza
-
-Seu irmão sumiu. Sem bilhetes, sem sinais de luta. Apenas o dispositivo que ele carregava no bolso. 
-
-No **Área Restrita**, você precisará navegar por uma rede de mentiras:
-* **👮‍♂️ O Inspetor:** Ele sabe de algo, mas os protocolos o impedem de falar.
-* **🏥 A Enfermeira:** Suas mensagens de madrugada escondem um segredo clínico.
-* **👥 O Círculo Íntimo:** Amigos que parecem saber mais sobre a última noite dele do que admitem.
-
-**Lembre-se:** No fim, nem todos sobrevivem. E a verdade pode ser muito mais sombria do que o próprio desaparecimento.
-
----
-
-## 🛠️ DNA Tecnológico
-
-Para criar essa experiência imersiva e fluida, utilizei o que há de mais moderno no ecossistema mobile:
-
-| Ferramenta | Função |
-| :--- | :--- |
-| **Expo + React Native** | O coração da aplicação, garantindo performance nativa. |
-| **TypeScript** | Segurança e robustez no fluxo de dados da narrativa. |
-| **Expo Router** | Navegação baseada em arquivos para uma experiência de sistema real. |
-| **Dynamic Themes** | Estilização que reage ao clima e tensão da história. |
-
----
-
-## 🧠 Funcionalidades Já Vivas
-
-- [x] **Chat Realista:** Interface inspirada nos apps de mensagens que usamos todo dia.
-- [x] **Árvore de Decisões:** Suas escolhas ramificam a história. Uma palavra errada e um aliado vira inimigo.
-- [x] **Persistência de Sessão:** O jogo lembra o que você disse e como agiu.
-- [x] **Status em Tempo Real:** Veja quando os personagens estão digitando ou "Online".
-
----
-
-## 🚀 Próximos Passos (Roadmap)
-
-- [ ] **Mídias Sombrias:** Visualização de fotos e audios cifrados nos chats.
-- [ ] **Phantom Notifications:** Receba notificações "push" simuladas mesmo fora do chat.
-- [ ] **Eventos Temporais:** Mensagens que chegam em horários específicos para aumentar o realismo.
-- [ ] **Deep Web In-game:** Um navegador simulado para buscar pistas externas.
-
----
-
-## 🎯 Por que construí isso?
-
-Este projeto é o meu laboratório pessoal para explorar o **Storytelling não linear** e o **Design Psicológico**. Quero entender como uma interface simples pode gerar ansiedade, empatia e medo, usando apenas texto e ritmo.
-
----
-
-<div align="center">
-  <p>Desenvolvido com 🧠 e 🕯️ por <strong>Kaio A. Dalfior</strong></p>
-  <a href="https://github.com/KaioADalfior">
-    <img src="https://img.shields.io/badge/Follow-Me-black?style=flat-square&logo=github" alt="GitHub">
-  </a>
-</div>
+</body>
+</html>
