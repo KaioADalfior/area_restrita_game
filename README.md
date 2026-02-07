@@ -5,7 +5,10 @@
   <div align="center">
     <br />
     <h1>🕵️ <font color="#cc0000">ÁREA RESTRITA</font></h1>
-    <p><strong>Ficção Interativa e Terror Psicológico</strong></p>
+    <p>
+      <strong>Ficção Interativa e Terror Psicológico</strong> -
+      <em><strong>EM DESENVOLVIMENTO</strong></em>...
+    </p>    
     <hr width="50%" />
   </div>
 
