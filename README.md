@@ -1,125 +1,82 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <title>Área Restrita</title>
-</head>
-<body>
+# 🕵️ Área Restrita — Entre o Silêncio e a Verdade
 
-  <h1 align="center">🕵️ Área Restrita</h1>
-  <p align="center"><strong>Jogo mobile de investigação e terror psicológico</strong></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Alpha%20Build-orange?style=for-the-badge&logo=probot" alt="Status Alpha">
+  <img src="https://img.shields.io/badge/Tech-React%20Native-blue?style=for-the-badge&logo=react" alt="React Native">
+  <img src="https://img.shields.io/badge/Genre-Psychological%20Horror-red?style=for-the-badge" alt="Terror Psicológico">
+</p>
 
-  <blockquote align="center">
-    Um simulador narrativo onde a verdade se esconde entre mensagens apagadas,
-    silêncios suspeitos e escolhas irreversíveis.
-  </blockquote>
+<p align="center">
+  <font face="Poppins, sans-serif">
+    <strong>Um simulador narrativo onde a verdade se esconde entre mensagens apagadas, silêncios suspeitos e escolhas irreversíveis.</strong>
+  </font>
+</p>
 
-  <hr />
+---
 
-  <h2>📱 Sobre o Projeto</h2>
-  <p>
-    <strong>Área Restrita</strong> é um jogo mobile de investigação e terror psicológico
-    desenvolvido com <strong>React Native + Expo</strong>.
-    O jogo simula a interface de um smartphone, colocando o jogador no papel de alguém
-    que precisa investigar o desaparecimento do próprio irmão usando apenas o histórico
-    de mensagens, arquivos pessoais e interações em tempo real com outros personagens.
-  </p>
+## 📱 O Projeto: Mais que um jogo, uma intrusão.
 
-  <p>
-    Nada é confiável.<br />
-    Nem as pessoas.<br />
-    Nem o que foi apagado.
-  </p>
+O **Área Restrita** não é apenas um app; é a janela para a vida de alguém que não está mais aqui. Desenvolvido com **React Native + Expo**, ele transforma o seu smartphone na ferramenta de um detetive improvisado. 
 
-  <h2>⚠️ Status do Projeto</h2>
-  <p>🚧 <strong>Versão Alpha — Em desenvolvimento ativo</strong></p>
-  <p>
-    O projeto está em constante evolução, com novas mecânicas narrativas e técnicas
-    sendo adicionadas progressivamente.
-  </p>
+Imagine que você acaba de herdar o celular do seu irmão desaparecido. Cada notificação que chega é um frio na espinha. Cada contato salvo é um suspeito. Aqui, a interface **diegética** faz você esquecer que está em um jogo e o coloca diretamente dentro do mistério.
 
-  <h2>📂 O Caso</h2>
-  <p>
-    Seu irmão desapareceu sem deixar rastros.
-  </p>
-  <p>
-    A única coisa que sobrou foi o acesso ao celular dele — mensagens, contatos e
-    fragmentos de uma rotina que agora parece estranhamente errada.
-  </p>
+> *"Nada é confiável. Nem as pessoas. Nem o que foi apagado."*
 
-  <p>Durante a investigação, você interage com uma rede de personagens:</p>
-  <ul>
-    <li>👮‍♂️ Um policial local com informações incompletas</li>
-    <li>🏥 Uma enfermeira que parece saber mais do que diz</li>
-    <li>👥 Amigos próximos que escondem segredos</li>
-  </ul>
+---
 
-  <p>
-    Cada escolha importa.<br />
-    Cada mensagem enviada (ou ignorada) altera o rumo da história.
-  </p>
+## 📂 O Caso: 48 Horas de Incerteza
 
-  <p>
-    No fim, nem todos sobrevivem.<br />
-    E a verdade pode ser pior do que o desaparecimento.
-  </p>
+Seu irmão sumiu. Sem bilhetes, sem sinais de luta. Apenas o dispositivo que ele carregava no bolso. 
 
-  <h2>🛠️ Tecnologias Utilizadas</h2>
-  <ul>
-    <li><strong>Framework:</strong> Expo + React Native</li>
-    <li><strong>Linguagem:</strong> TypeScript</li>
-    <li><strong>Navegação:</strong> Expo Router (file-based routing)</li>
-    <li><strong>Estilização:</strong> StyleSheet nativo com suporte a temas dinâmicos</li>
-    <li><strong>Persistência:</strong> Estado local durante a sessão</li>
-  </ul>
+No **Área Restrita**, você precisará navegar por uma rede de mentiras:
+* **👮‍♂️ O Inspetor:** Ele sabe de algo, mas os protocolos o impedem de falar.
+* **🏥 A Enfermeira:** Suas mensagens de madrugada escondem um segredo clínico.
+* **👥 O Círculo Íntimo:** Amigos que parecem saber mais sobre a última noite dele do que admitem.
 
-  <h2>📱 Funcionalidades Implementadas</h2>
-  <ul>
-    <li>
-      💬 <strong>Sistema de Chat Imersivo</strong><br />
-      Interface inspirada em aplicativos de mensagens reais (estilo WhatsApp).
-    </li>
-    <br />
-    <li>
-      🌳 <strong>Árvore de Diálogos Dinâmica</strong><br />
-      Escolhas ramificadas, sem repetição de opções, que impactam diretamente a narrativa.
-    </li>
-    <br />
-    <li>
-      💾 <strong>Persistência Local de Sessão</strong><br />
-      Histórico de mensagens e status dos personagens (Online / Offline).
-    </li>
-    <br />
-    <li>
-      🧭 <strong>Navegação Imersiva</strong><br />
-      Alternância fluida entre abas do sistema e conversas em tela cheia.
-    </li>
-  </ul>
+**Lembre-se:** No fim, nem todos sobrevivem. E a verdade pode ser muito mais sombria do que o próprio desaparecimento.
 
-  <h2>📝 Roadmap</h2>
-  <ul>
-    <li>[x] Estrutura de navegação (Tabs e Stacks)</li>
-    <li>[x] Sistema de chat com árvore de diálogos</li>
-    <li>[ ] Visualização de imagens e áudios nos chats</li>
-    <li>[ ] Sistema de notificações push (simuladas)</li>
-    <li>[ ] Expansão da narrativa e novos personagens</li>
-    <li>[ ] Sistema de eventos temporais (mensagens atrasadas / fora de ordem)</li>
-  </ul>
+---
 
-  <h2>🚀 Objetivo do Projeto</h2>
-  <p>Este projeto tem como objetivo explorar:</p>
-  <ul>
-    <li>Narrativas interativas em dispositivos móveis</li>
-    <li>Storytelling não linear</li>
-    <li>Interfaces diegéticas (UI como parte da narrativa)</li>
-    <li>Design psicológico aplicado a jogos narrativos</li>
-  </ul>
+## 🛠️ DNA Tecnológico
 
-  <hr />
+Para criar essa experiência imersiva e fluida, utilizei o que há de mais moderno no ecossistema mobile:
 
-  <p align="center">
-    Desenvolvido por <strong>Kaio A. Dalfior</strong> 🧠🕯️
-  </p>
+| Ferramenta | Função |
+| :--- | :--- |
+| **Expo + React Native** | O coração da aplicação, garantindo performance nativa. |
+| **TypeScript** | Segurança e robustez no fluxo de dados da narrativa. |
+| **Expo Router** | Navegação baseada em arquivos para uma experiência de sistema real. |
+| **Dynamic Themes** | Estilização que reage ao clima e tensão da história. |
 
-</body>
-</html>
+---
+
+## 🧠 Funcionalidades Já Vivas
+
+- [x] **Chat Realista:** Interface inspirada nos apps de mensagens que usamos todo dia.
+- [x] **Árvore de Decisões:** Suas escolhas ramificam a história. Uma palavra errada e um aliado vira inimigo.
+- [x] **Persistência de Sessão:** O jogo lembra o que você disse e como agiu.
+- [x] **Status em Tempo Real:** Veja quando os personagens estão digitando ou "Online".
+
+---
+
+## 🚀 Próximos Passos (Roadmap)
+
+- [ ] **Mídias Sombrias:** Visualização de fotos e audios cifrados nos chats.
+- [ ] **Phantom Notifications:** Receba notificações "push" simuladas mesmo fora do chat.
+- [ ] **Eventos Temporais:** Mensagens que chegam em horários específicos para aumentar o realismo.
+- [ ] **Deep Web In-game:** Um navegador simulado para buscar pistas externas.
+
+---
+
+## 🎯 Por que construí isso?
+
+Este projeto é o meu laboratório pessoal para explorar o **Storytelling não linear** e o **Design Psicológico**. Quero entender como uma interface simples pode gerar ansiedade, empatia e medo, usando apenas texto e ritmo.
+
+---
+
+<div align="center">
+  <p>Desenvolvido com 🧠 e 🕯️ por <strong>Kaio A. Dalfior</strong></p>
+  <a href="https://github.com/KaioADalfior">
+    <img src="https://img.shields.io/badge/Follow-Me-black?style=flat-square&logo=github" alt="GitHub">
+  </a>
+</div>
