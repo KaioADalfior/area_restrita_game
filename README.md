@@ -24,29 +24,23 @@
 
     <ul>
       <li>
-        <p>
-          <strong>👮‍♂️ O Policial:</strong>
-          Amigo de longa data da família. Foi ele quem trouxe a notícia do desaparecimento,
-          mas o peso da corrupção na delegacia parece estar calando sua voz.
-        </p>
+        <strong>👮‍♂️ O Policial:</strong><br />
+        Amigo de longa data da família. Foi ele quem trouxe a notícia do desaparecimento,
+        mas o peso da corrupção na delegacia parece estar calando sua voz.
       </li>
 
       <li>
-        <p>
-          <strong>🏥 A Enfermeira:</strong>
-          Ela estava lá quando seu irmão deu entrada no hospital.
-          Ela viu o rosto dele, mas em questão de minutos, ele desapareceu
-          de um quarto trancado sem deixar rastros.
-        </p>
+        <strong>🏥 A Enfermeira:</strong><br />
+        Ela estava lá quando seu irmão deu entrada no hospital.
+        Ela viu o rosto dele, mas em questão de minutos, ele desapareceu
+        de um quarto trancado sem deixar rastros.
       </li>
 
       <li>
-        <p>
-          <strong>💔 A Namorada:</strong>
-          Em choque, ela inunda o celular com perguntas.
-          Ela não entende o silêncio dele, mas suas mensagens guardam pistas
-          sobre amizades ligadas a rituais e seitas perigosas.
-        </p>
+        <strong>💔 A Namorada:</strong><br />
+        Em choque, ela inunda o celular com perguntas.
+        Ela não entende o silêncio dele, mas suas mensagens guardam pistas
+        sobre amizades ligadas a rituais e seitas perigosas.
       </li>
     </ul>
   </section>
