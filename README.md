@@ -1,50 +1,41 @@
-# Welcome to your Expo app 👋
+🕵️ Área Restrita (Em Desenvolvimento)
+Área Restrita é um projeto de jogo de investigação e terror psicológico mobile desenvolvido com React Native e Expo. O game simula a interface de um smartphone onde o jogador deve desvendar o desaparecimento de seu irmão através de chats, arquivos e interações em tempo real.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+⚠️ Status do Projeto: Versão Alpha / Em desenvolvimento ativo.
 
-## Get started
+📂 O Caso
+Seu irmão desapareceu. A única pista que você tem é o acesso ao histórico de mensagens dele e uma rede de contatos que inclui figuras suspeitas e aliados improváveis, como um policial local, uma enfermeira e amigos próximos da vítima.
+Neste simulador, a linha entre a verdade e a mentira é tênue. Suas escolhas determinam quem sobrevive e se o mistério será resolvido.
 
-1. Install dependencies
+🛠️ Tecnologias
+Framework: Expo com React Native
 
-   ```bash
-   npm install
-   ```
+Navegação: Expo Router (File-based routing)
 
-2. Start the app
+Linguagem: TypeScript
 
-   ```bash
-   npx expo start
-   ```
+Estilização: StyleSheet nativo com suporte a temas dinâmicos
 
-In the output, you'll find options to open the app in a
+📱 Funcionalidades Implementadas
+Interface de Mensagens: Sistema de chat simulando aplicativos de mensagens reais (estilo WhatsApp).
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Árvore de Diálogos: Sistema de escolhas dinâmicas onde as opções não se repetem e ramificam a história.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Persistência Local: O histórico de mensagens e o status dos personagens (Online/Offline) permanecem salvos durante a sessão.
 
-## Get a fresh project
+Navegação Imersiva: Transição entre abas de sistema e telas de chat em "tela cheia".
 
-When you're ready, run:
+📝 Roadmap
+[x] Estrutura de navegação (Tabs e Stacks)
 
-```bash
-npm run reset-project
-```
+[x] Sistema de chat com árvores de diálogo
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+[ ] Implementação de visualização de imagens e áudios nos chats
 
-## Learn more
+[ ] Sistema de notificações push (simuladas)
 
-To learn more about developing your project with Expo, look at the following resources:
+[ ] Expansão da narrativa e novos personagens
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<p align="center">
+Desenvolvido por <b>Kaio A. Dalfior</b>
+</p>
