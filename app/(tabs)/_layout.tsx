@@ -1,35 +1,26 @@
 import { Tabs } from 'expo-router';
-import React from 'react';
-
-import { HapticTab } from '@/components/haptic-tab';
-import { IconSymbol } from '@/components/ui/icon-symbol';
-import { Colors } from '@/constants/theme';
-import { useColorScheme } from '@/hooks/use-color-scheme';
+import { Ionicons } from '@expo/vector-icons';
+import { StyleSheet } from 'react-native';
 
 export default function TabLayout() {
-  const colorScheme = useColorScheme();
-
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
+        tabBarActiveTintColor: '#4a5568',
         headerShown: false,
-        tabBarButton: HapticTab,
+        tabBarStyle: styles.tabBar,
+        tabBarLabelStyle: styles.tabBarLabel,
       }}>
-      <Tabs.Screen
-        name="index"
-        options={{
-          title: 'Home',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="explore"
-        options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
-        }}
-      />
+      <Tabs.Screen name="index" options={{ title: 'Bate-papo', tabBarIcon: ({ color }) => <Ionicons name="chatbubble-outline" size={24} color={color} /> }} />
+      <Tabs.Screen name="cloud" options={{ title: 'Nuvem', tabBarIcon: ({ color }) => <Ionicons name="cloud-outline" size={24} color={color} /> }} />
+      <Tabs.Screen name="apps" options={{ title: 'Apps', tabBarIcon: ({ color }) => <Ionicons name="grid-outline" size={24} color={color} /> }} />
+      <Tabs.Screen name="profile" options={{ title: 'Perfil', tabBarIcon: ({ color }) => <Ionicons name="person-outline" size={24} color={color} /> }} />
+      <Tabs.Screen name="shop" options={{ title: 'Loja', tabBarIcon: ({ color }) => <Ionicons name="bag-handle-outline" size={24} color={color} /> }} />
     </Tabs>
   );
 }
+
+const styles = StyleSheet.create({
+  tabBar: { height: 70, paddingBottom: 10, backgroundColor: '#fff' },
+  tabBarLabel: { fontFamily: 'Poppins', fontSize: 10 },
+});
